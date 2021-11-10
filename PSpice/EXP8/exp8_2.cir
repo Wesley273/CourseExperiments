@@ -1,0 +1,37 @@
+CIRCUIT EXP8_2
+.SUBCKT STABILIVOLT 1 4
+VZ 4 3 12V
+R2 1 2 10
+D1 1 4 DMOD2
+D2 3 2 DMOD1
+.MODEL DMOD1 D N=0.001
+.MODEL DMOD2 D
+.ENDS
+VI 6 0 SIN(0V 311.127V 50HZ)
+R1 3 2 100
+RS 5 6 50
+C1 2 0 15UF
+D1 4 3 DMOD
+L1 5 0 1H
+L2 4 0 LMOD 1MH 
+K12 L1 L2 0.9
+*********接入稳压管*********
+X1 0 1 STABILIVOLT
+RZ 2 1 RMOD 500
+RL 1 0 50K
+***************************
+.MODEL RMOD RES(R=1 DEV=30%)
+.MODEL DMOD D
+.MODEL LMOD IND(L=3.8)
+.TRAN 1MS 200MS
+
+*************最坏分析*************
+.WCASE TRAN V(1) YMAX DEVICES RMOD RANGE(100MS,200MS) OUTPUT ALL
+*********************************
+
+*************电感取值*************
+*.STEP LIN IND LMOD(L) 2.8 4.3 0.5
+*********************************
+
+.PROBE
+.END

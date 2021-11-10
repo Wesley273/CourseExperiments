@@ -1,0 +1,15 @@
+CIRCUIT EXAM_1
+.LIB C:\Users\Wesley\Documents\Git\ElectronicDesign\PSpice\EXAM\jfet.lib
+V1 6 0 DC 5V
+V2 0 4 DC 15V
+R1 6 1 500
+R2 1 3 10MEG
+R3 2 3 RMOD 1K
+R4 3 0 7.5K
+R5 2 0 10K
+J1 4 1 2 J2N2608
+.MODEL RMOD RES(R=1)
+.STEP RES RMOD(R) LIST 1.2 1.5 1.8 2
+.TF V(2) V1
+.PROBE
+.END

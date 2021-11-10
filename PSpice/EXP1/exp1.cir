@@ -1,0 +1,9 @@
+EXAMPLE
+R1 1 2  100
+C1 2 0  cmod 1
+.model cmod cap c=1
+VI 1 0  AC 1
+.AC DEC 10 10m 100MEG
+.PRINT AC V(2)
+.PROBE
+.END 

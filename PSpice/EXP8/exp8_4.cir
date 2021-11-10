@@ -1,0 +1,12 @@
+CIRCUIT EXP8_4
+.LIB C:\Users\Wesley\Documents\Git\ElectronicDesign\PSpice\EXP8\my_lib.lib
+VS 1 0 AC 500V
+R1 1 2 50
+L1 3 2 {L1}
+L2 3 0 {L2}
+C1 3 0 1UF
+K12 L1 L2 {M/SQRT({L1}*{L2})}
+.AC LIN 1000 990HZ 1010HZ
+.STEP PARAM M LIST 25MH 30MH 35MH
+.PROBE
+.END

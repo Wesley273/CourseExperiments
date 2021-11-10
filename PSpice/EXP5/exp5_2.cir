@@ -1,0 +1,19 @@
+CIRCUIT EXP5_2
+VS 2 1 AC 1V 0DEG
+VCC 5 0 DC 10V
+VBB 1 0 DC 0.87V
+RB 2 3 10K
+RC 5 4 2K
+Q1 4 3 0 QNPN
+.MODEL QNPN NPN(IS=5E-15A BF=100 RB=100 VAF=50)
+
+*******DC Analysis*******
+*.DC VBB 0V 1.5V 0.01V 
+*************************
+
+**Transfer Function Analysis**
+.TF V(4) VS
+******************************
+
+.PROBE
+.END
