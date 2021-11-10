@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "aM3dIvP+mHHZoIvkOedx0xvWMINT5VFJb4x2GMDpF36w0L6R45rdjob+PtfXS5U0G8sEI6+0Qolshy7DJzdfxQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Wesley\\Documents\\Git\\C#\\LaboratoryManagement\\LaboratoryManagement.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Wesley\\.nuget\\packages\\microsoft.netcore.app.ref\\3.1.0\\microsoft.netcore.app.ref.3.1.0.nupkg.sha512",
+    "C:\\Users\\Wesley\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.1.0\\microsoft.windowsdesktop.app.ref.3.1.0.nupkg.sha512"
+  ],
+  "logs": []
+}

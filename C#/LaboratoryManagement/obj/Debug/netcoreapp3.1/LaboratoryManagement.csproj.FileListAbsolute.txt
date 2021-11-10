@@ -1,0 +1,13 @@
+C:\Users\Wesley\Documents\GIT\C#\LaboratoryManagement\obj\Debug\netcoreapp3.1\LaboratoryManagement.csprojAssemblyReference.cache
+C:\Users\Wesley\Documents\GIT\C#\LaboratoryManagement\obj\Debug\netcoreapp3.1\LaboratoryManagement.AssemblyInfoInputs.cache
+C:\Users\Wesley\Documents\GIT\C#\LaboratoryManagement\obj\Debug\netcoreapp3.1\LaboratoryManagement.AssemblyInfo.cs
+C:\Users\Wesley\Documents\GIT\C#\LaboratoryManagement\obj\Debug\netcoreapp3.1\LaboratoryManagement.csproj.CoreCompileInputs.cache
+C:\Users\Wesley\Documents\GIT\C#\LaboratoryManagement\bin\Debug\netcoreapp3.1\LaboratoryManagement.exe
+C:\Users\Wesley\Documents\GIT\C#\LaboratoryManagement\bin\Debug\netcoreapp3.1\LaboratoryManagement.deps.json
+C:\Users\Wesley\Documents\GIT\C#\LaboratoryManagement\bin\Debug\netcoreapp3.1\LaboratoryManagement.runtimeconfig.json
+C:\Users\Wesley\Documents\GIT\C#\LaboratoryManagement\bin\Debug\netcoreapp3.1\LaboratoryManagement.runtimeconfig.dev.json
+C:\Users\Wesley\Documents\GIT\C#\LaboratoryManagement\bin\Debug\netcoreapp3.1\LaboratoryManagement.dll
+C:\Users\Wesley\Documents\GIT\C#\LaboratoryManagement\bin\Debug\netcoreapp3.1\LaboratoryManagement.pdb
+C:\Users\Wesley\Documents\GIT\C#\LaboratoryManagement\obj\Debug\netcoreapp3.1\LaboratoryManagement.dll
+C:\Users\Wesley\Documents\GIT\C#\LaboratoryManagement\obj\Debug\netcoreapp3.1\LaboratoryManagement.pdb
+C:\Users\Wesley\Documents\GIT\C#\LaboratoryManagement\obj\Debug\netcoreapp3.1\LaboratoryManagement.genruntimeconfig.cache
