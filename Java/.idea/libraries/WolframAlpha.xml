@@ -1,9 +1,0 @@
-<component name="libraryTable">
-  <library name="WolframAlpha">
-    <CLASSES>
-      <root url="jar://$PROJECT_DIR$/lib/WolframAlpha.jar!/" />
-    </CLASSES>
-    <JAVADOC />
-    <SOURCES />
-  </library>
-</component>
